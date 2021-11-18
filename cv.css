@@ -1,0 +1,62 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color:#AF1A40;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2,h3{
+    color:#AF1A40;
+}
+
+.paragraph{
+    border:1px solid;
+    width: fit-content;
+    padding: 20px;
+    text-align: justify;
+    margin:auto;
+}
+.paragraph>h2{
+    text-align: center;
+}
+
+p{
+    margin-left: 20px;
+}
+
+.image1{
+    width: 100px;
+    margin:auto;
+    display:flex;
+}
+
+.image2{
+    width: 500px;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+
+.flex{
+    display: flex;
+    justify:space-around;
+}
+
+div{
+    width: 100%;
+}
+
+hr{
+    border: 0.5% solid;
+    width: 20%;
+}
+
+footer{
+    background-color: #FFCFFF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
